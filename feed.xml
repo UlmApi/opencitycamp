@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OpenCityCamp</title>
+    <description>Dies sind die statischen Dokumentationsseiten für die bisherigen OpenCityCamps
+</description>
+    <link>http://www.opencitycamp.de/</link>
+    <atom:link href="http://www.opencitycamp.de/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 27 Dec 2014 17:55:00 +0100</pubDate>
+    <lastBuildDate>Sat, 27 Dec 2014 17:55:00 +0100</lastBuildDate>
+    <generator>Jekyll v2.5.1</generator>
+    
+      <item>
+        <title>Das OpenCityCamp 2014 im Rückblick</title>
+        <description>&lt;p&gt;Dies sollte ein Test sein&lt;/p&gt;
+</description>
+        <pubDate>Sun, 28 Dec 2014 00:00:00 +0100</pubDate>
+        <link>http://www.opencitycamp.de/news/das-opencitycamp-2014-im-rueckblick</link>
+        <guid isPermaLink="true">http://www.opencitycamp.de/news/das-opencitycamp-2014-im-rueckblick</guid>
+        
+        
+        <category>news</category>
+        
+      </item>
+    
+      <item>
+        <title>Was ist eigentlich Open Data?</title>
+        <description>&lt;p&gt;Bei OpenData handelt es sich grundsätzlich um die Idee, das Daten frei verfügbar sein sollten - eine genauere Klassifizierung ist schwer. Klassifizieren kann man beispielweise nach der Quelle der Daten oder nach Verwendungszweck. Zusätzlich gibt es einige existierende Definitionen, die weiter unten als Referenzen aufgelistet sind.&lt;/p&gt;
+
+&lt;h3 id=&quot;opendata-vs-government-open-data-kommen-die-daten-vom-staat-oder-von-irgendwelche-unternehmen&quot;&gt;OpenData vs. Government Open Data: kommen die Daten vom Staat oder von irgendwelche Unternehmen?&lt;/h3&gt;
+
+&lt;p&gt;Ein Hauptthema der Besprechung war die Diskussion von Staatliche vs. Unternehmensdaten. Eine Idee um gute Daten zu sammeln war, die Daten von irgendwelche Communities zu scrapen. Für den Staat ist durchaus ein rechtliches  Problem, die Daten zu verwenden die von Unternehmen veröffentlicht  werden, sowie auch die Daten die von Menschen (?) über deren Services  veröffentlicht werden (z.B. Google und Foursquare).&lt;/p&gt;
+
+&lt;h3 id=&quot;opendata-vs-openknowledge-wie-lsst-opendata-sich-in-weitere-definitionen-einbetten&quot;&gt;OpenData vs. OpenKnowledge: Wie lässt OpenData sich in weitere Definitionen einbetten?&lt;/h3&gt;
+
+&lt;p&gt;OpenKnowledge ist eine sehr breite Definiton, der unter anderm auch OpenEducation und manchmal auch OpenSource und Wissen auf z.B. Wikimedia beeinhalten kann. In dieser Session haben wir uns weiterhin auf Daten beschränkt.&lt;/p&gt;
+
+&lt;h3 id=&quot;kostenlos-ist-nicht-offen&quot;&gt;Kostenlos ist nicht Offen?&lt;/h3&gt;
+
+&lt;p&gt;Es ist unklar, ob OpenData was kosten darf. Manchen meinten, es existiert eine Pflicht für den Staat (also Government Open Data), die Daten möglichst für den Bürger verfügbar zu machen: dies scheint allerdings nicht zu stimmen.  Die meisten waren einverstanden, das Government Open Data für demokratische Zwecken nichts kosten darf; die Verwendung durch Firmen ist allerdings weniger akzeptiert. &lt;/p&gt;
+
+&lt;h3 id=&quot;existierende-definitionen&quot;&gt;Existierende Definitionen&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;wikipedia hat mehrere:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Open_data&quot;&gt;WP:Open data (en)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://de.wikipedia.org/wiki/Open_Data&quot;&gt;WP:Open Data (de))&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Außerdem bietet die OKFN einiges an:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://opendefinition.org/&quot;&gt;opendefinition.org&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://opendefinition.org/licenses/&quot;&gt;opendefinition.org/licenses&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;unternehmen-vs-brger&quot;&gt;Unternehmen vs Bürger&lt;/h3&gt;
+
+&lt;p&gt;Geld verlangen von Unternehmen, z.B. für die Verwendung oder Weiterverkauf von Daten; für  Bürger kostenlos zur Verfügung stellen – wie lässt sich dies vereinbaren? Dies ist eine offene Frage. In dem Kontext kam dann auch die Frage von Lizenzen auf.&lt;/p&gt;
+
+&lt;h3 id=&quot;wie-kommen-daten-zu-den-brgern&quot;&gt;Wie kommen Daten zu den Bürgern?&lt;/h3&gt;
+
+&lt;p&gt;Es existieren viele eigenbastelportalen von Städte, Länder, Bund und auch viele halb-öffentliche Instanzen (?), die alle Ihre eigene Daten verbreiten. Zusätzlich gibt es noch ein statistisches Jahrbuch in viele Städte, womit Bürger sich über jeglichen Informationen  der Stadt zugreifen können. Govdata.de versucht dies auf Bundesebene zu sammeln, aber dies ist zurzeit noch sehr unvollständig. Lokale und Kommunale Daten sind meistens vollständiger.&lt;/p&gt;
+
+&lt;h3 id=&quot;offene-themen&quot;&gt;Offene Themen&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Lizenzen
+    &lt;ul&gt;
+      &lt;li&gt;wer darf was&lt;/li&gt;
+      &lt;li&gt;was möchten wir&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Datenschutz&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;meta&quot;&gt;Meta&lt;/h3&gt;
+
+&lt;p&gt;Moderation u.a. von &lt;a href=&quot;https://twitter.com/_teecee&quot;&gt;@_teecee&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 29 Nov 2014 00:00:00 +0100</pubDate>
+        <link>http://www.opencitycamp.de/14/was-ist-eigentlich-opendata</link>
+        <guid isPermaLink="true">http://www.opencitycamp.de/14/was-ist-eigentlich-opendata</guid>
+        
+        
+        <category>14</category>
+        
+      </item>
+    
+      <item>
+        <title>Twitter- und Bloggrundlagen</title>
+        <description>&lt;p&gt;Wir hatten eine kleine Gruppe von Anfängern und Fortgeschrittenen. Es wurden die Grundlagen erklärt &lt;/p&gt;
+
+&lt;h2 id=&quot;erklrung-was-ist-twitter-ein-micro-blogging-system&quot;&gt;Erklärung: was ist Twitter? Ein Micro-Blogging System!&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://de.wikipedia.org/wiki/Twitter&quot;&gt;was sagt Wikipedia?&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;technik-und-tools&quot;&gt;Technik und Tools&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;verschiedene Clients für PC, Mac, Smartphone&lt;/li&gt;
+  &lt;li&gt;140 Zeichen – von SMS abgeleitet, App.net macht 160&lt;/li&gt;
+  &lt;li&gt;Zugang? Account anlegen!&lt;/li&gt;
+  &lt;li&gt;#Hashtag, DM, Mute, blockieren, FAV, Retweet&lt;/li&gt;
+  &lt;li&gt;keine Webadresse im DM - wurde wieder geändert&lt;/li&gt;
+  &lt;li&gt;Listen anlagen (am besten gleich von Anfang an)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;tools&quot;&gt;Tools:&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://tweettunnel.info/friend.php&quot;&gt;Tweettunnel – Freunde bei Twitter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://paper.li&quot;&gt;Paper.li - die Tweets als Zeitung&lt;/a&gt; – &lt;a href=&quot;http://paper.li/riedelwerk/1369463017&quot;&gt;meine Zeitung&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://about.flipboard.com&quot;&gt;Flipboard&lt;/a&gt; – Eure Bilder, Tweets, Bericht als Zeitschrift – bunt und schön&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://discover.twitter.com/de/first-tweet&quot;&gt;der erste Tweet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Die Teilnehmer waren etwas erschrocken, welche Daten mit diesen Werkzeugen abzurufen sind. Versucht es einfach mal aus.&lt;/p&gt;
+
+&lt;h2 id=&quot;social-media--warum-schreiben-wir-mit-twitter&quot;&gt;Social Media – warum schreiben wir mit Twitter!&lt;/h2&gt;
+
+&lt;p&gt;Wir habne dann diskutiert, ob man Twitter für Firmenkontakte nützen soll und was es für die Neukundengewinnung bringt.&lt;/p&gt;
+
+&lt;p&gt;Wir haben ganz vorne angefangen und versucht zu klären, warum, weshalb, wieso.
+Zusätzlich noch das Thema Daten, welche Daten sind verfügbar und wie können Sie genützt werden. &lt;/p&gt;
+
+&lt;h2 id=&quot;meta&quot;&gt;Meta&lt;/h2&gt;
+
+&lt;p&gt;Session von Frank, &lt;a href=&quot;http://www.riedelwerk.de&quot;&gt;riedelwerk.de&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/riedelwerk&quot;&gt;@riedelwerk&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Twitterkurs unter &lt;a href=&quot;http://riedelwerk.wordpress.com/2014/07/07/473-twitter-grundlagenkurs/&quot;&gt;http://riedelwerk.wordpress.com/2014/07/07/473-twitter-grundlagenkurs/&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 29 Nov 2014 00:00:00 +0100</pubDate>
+        <link>http://www.opencitycamp.de/14/twitter-und-bloggrundlagen</link>
+        <guid isPermaLink="true">http://www.opencitycamp.de/14/twitter-und-bloggrundlagen</guid>
+        
+        
+        <category>14</category>
+        
+      </item>
+    
+      <item>
+        <title>Open Data Portal Baden-Württemberg</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Die URL wird noch nicht veröffentlicht, da die Abnahme noch nicht erfolgt ist, noch pre-Alpha und noch nicht bezahlt.&lt;/li&gt;
+  &lt;li&gt;momentan nur Testdaten&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;
+  &lt;a href=&quot;https://www.flickr.com/photos/okfde/15817777970&quot; title=&quot;OpenCityCamp Stuttgart 2014 by Open Knowledge Foundation Deutschland, on Flickr&quot;&gt;&lt;img src=&quot;https://farm8.staticflickr.com/7532/15817777970_214f0bb3bd_z.jpg&quot; width=&quot;640&quot; height=&quot;427&quot; alt=&quot;OpenCityCamp Stuttgart 2014&quot; /&gt;&lt;/a&gt;
+&lt;figcaption&gt;
+  Bild &lt;a href=&quot;https://creativecommons.org/licenses/by/2.0/&quot;&gt;CC-BY&lt;/a&gt; Awesome Pixels.
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;was-soll-ins-portal&quot;&gt;Was soll ins Portal?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Erschließen der VVS-GTFS-Daten über dieses Portal&lt;/li&gt;
+  &lt;li&gt;Landesverwaltung  hat schon viele viele Daten veröffentlicht, aber verstreut und  unsortiert und meist gut versteckt (z.T. nicht über Google auffindbar).&lt;/li&gt;
+  &lt;li&gt;Hauptziel: Über eine Adresse soll anhand von Metadaten gesucht und gefunden werden.&lt;/li&gt;
+  &lt;li&gt;Nebenziel: standardisierte Bereitstellung, Formate und Nutzungsbedingungen&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;govdata&quot;&gt;Govdata&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Jaud ist Vertreter von BW in der Bund-Länder-Arbeitsgruppe zum Govdata-Portal.&lt;/li&gt;
+  &lt;li&gt;Govdata wird ab 2015 als Portal weiter am Leben bleiben.&lt;/li&gt;
+  &lt;li&gt;Nicht ein großes, zentrales Portal, sondern viele Portale. Ansonsten 10.000 Datenbereitsteller und eine riesige Redaktion.&lt;/li&gt;
+  &lt;li&gt;Daher Landesportale bei Flächenländern nach Govdata-Standard, Metadatenaustausch über festgelegte Schnittstellen.&lt;/li&gt;
+  &lt;li&gt;Aufnahme städtischer Daten&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;lizenzen&quot;&gt;Lizenzen&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Man hat sich gegen CC- und für selbstgemachte Lizenz (&lt;a href=&quot;https://www.govdata.de/lizenzen&quot;&gt;Datenlizenz Deutschland&lt;/a&gt;) entschieden und verkündet das als Empfehlung der Bund-Länder-Arbeitsgruppe.
+    &lt;ul&gt;
+      &lt;li&gt;Man wollte einen kurzen Lizenztext. CC sei zu lange (langatmig wie bei Apple &amp;amp; Co.)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;kurze Erläuterung von Datenlizenz DE 1.0 und 2.0&lt;/li&gt;
+  &lt;li&gt;manche Kritiker auf Verwaltungsseite würden Haftungsregelungen gerne aufnehmen
+    &lt;ul&gt;
+      &lt;li&gt;Man kommt als Staat nicht aus der Staatshaftung heraus.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;das-portal&quot;&gt;Das Portal&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://opendata.service-bw.de&quot;&gt;Vorgänger&lt;/a&gt; war Prototyp und nur zum Testen, aber mit echten Daten&lt;/li&gt;
+  &lt;li&gt;mittlerweile neues Konzept, das sich an Govdata anlehnt&lt;/li&gt;
+  &lt;li&gt;in der Grundstufe ist so ein Portal nur wenig komplex&lt;/li&gt;
+  &lt;li&gt;Nicht  nur stark IT-affine Personen sollten das Portal nutzen können. Wer  schon mal ein bisschen im Internet unterwegs war sollte es nutzen können.&lt;/li&gt;
+  &lt;li&gt;Wenn die Leute nicht gezielt suchen, dann suchen sie über ihren Wohnort → daher kartenbasierte Suchfunktion&lt;/li&gt;
+  &lt;li&gt;Zum Bewerten von Datensätzen muss man sich einloggen. Registrierung auf „niedrigem Vertrauensniveau“.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;feedbackrunde&quot;&gt;Feedbackrunde&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Gemeinde (Breadcumb) könnte größer dargestellt werden oder als “Kärtchen” unter dem Datensatz&lt;/li&gt;
+  &lt;li&gt;Was macht die Vorschau?
+    &lt;ul&gt;
+      &lt;li&gt;noch nichts bei Einwohner in Ochsenhausen&lt;/li&gt;
+      &lt;li&gt;funktioniert bei Schulen im Kreis Biberach&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;„Ich habe gerade wieder zwei weitere Fehler gefunden.“&lt;/li&gt;
+  &lt;li&gt;Warum sind es in BW nur 12, auf Govdata 14 Kategorien?
+    &lt;ul&gt;
+      &lt;li&gt;eigener Kategorienkatalog, der an Bund angelehnt ist&lt;/li&gt;
+      &lt;li&gt;Umweltministerium wollte das Thema Energien in den Kategorien haben, was bundesweit nicht durchsetzbar war&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Wenn man Nicht-Standardlizenzen verwendet, sollte man eine  Kompatibilitätsliste anbieten. Dann können juristisch wenig bewanderte Entwickler das leichter herausfinden.
+    &lt;ul&gt;
+      &lt;li&gt;Datenlizenz DE &lt;a href=&quot;http://okfn.de/2014/09/erfolg-fuer-open-data-datenlizenz-deutschland-version-2-0-ist-eine-offene-lizenz/&quot;&gt;ist als Open anerkannt im Sinne der Open-Definition&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Kategorien anbieten: kommerziell erlaubt, kommerzielle Weitergabe erlaubt, Share-Alike, … (wie das CC-Logo)&lt;/li&gt;
+      &lt;li&gt;als Filter in der Suche&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;CC-Lizenzen werden ohne Versionsnummer angegeben&lt;/li&gt;
+  &lt;li&gt;Art und Weise der Namensnennung muss noch ergänzt werden als Datenfeld in der Metadatenbank&lt;/li&gt;
+  &lt;li&gt;Beschreibungen der Kategorien in Vorschautabellen (z.B. bei CSV-Daten)
+    &lt;ul&gt;
+      &lt;li&gt;Wir möchten möglichst wenig erklären.&lt;/li&gt;
+      &lt;li&gt;“Politik und Verwaltung” ist schwer zu erklären.&lt;/li&gt;
+      &lt;li&gt;Daten sind aufbereitet durch die Nutzung durch Fachleute.&lt;/li&gt;
+      &lt;li&gt;Metadaten und Kurzbeschreibungstexte sind von Fachleuten für Fachleute beschrieben.&lt;/li&gt;
+      &lt;li&gt;Das ist das Problem, das Verwaltungen haben, wenn sie plötzlich Daten öffentlich bereitstellen.&lt;/li&gt;
+      &lt;li&gt;Ämter haben keine Zeit (Personal), lange Beschreibungen zu schreiben und daher sind die Beschreibungen kurz, da man sonst keine Daten bekommt.&lt;/li&gt;
+      &lt;li&gt;1879 war die erste Konferenz zur Standardisierung statistischer Daten.
+        &lt;ul&gt;
+          &lt;li&gt;Das kann man nicht anordnen und zwingen, da der Staat sonst es bezahlen müsste.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Daher erst die Daten ins Netz kippen.&lt;/li&gt;
+      &lt;li&gt;Anregungen: Datenbeschreibung könnte man als Wiki machen, denn “Open” heißt auch “Mitmachen”:&lt;/li&gt;
+      &lt;li&gt;Datenfehler melden
+        &lt;ul&gt;
+          &lt;li&gt;Kommentare an den Datensätzen sind eingeloggt möglich und werden nichtöffentlich an die Behörde weitergeleitet.&lt;/li&gt;
+          &lt;li&gt;Das sollte “Feedback” oder “Fehler melden” und nicht “Kommentar” nennen.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Filter direkt verlinken und branden, damit ein Landkreis auf seinen Teil im Portal verlinken kann (“Unsere Datensätze”)
+    &lt;ul&gt;
+      &lt;li&gt;wird ab 2016 als Datenportal des Landes (und der Kommunen) als service-bw.de vermarktet&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.service-bw.de&quot;&gt;service-bw.de&lt;/a&gt; wurde gerade neu ausgeschrieben und beitet Kommunen die Möglichkeit, Teile des Portals zu sich zu übernehmen&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Datenwunschfunktion gibt es nicht&lt;/li&gt;
+  &lt;li&gt;Datennutzungsmeldungsfunktion als Rückmeldung&lt;/li&gt;
+  &lt;li&gt;Bei Schnittstellen wäre eine Unterstützungsgarantie und eine “Kündigungsfrist” von Seiten des Datenbereitstellers nett.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;welche-daten-kommen-da-hin&quot;&gt;Welche Daten kommen da hin?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Angst der Community vor Mehrfachveröffentlichung unter verschiedenen Lizenzen
+    &lt;ul&gt;
+      &lt;li&gt;Govdata und andere Portale verlinken nur auf die Quelle&lt;/li&gt;
+      &lt;li&gt;zusätzlicher Erschließungsweg zu Fachportalen&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Die statistischen Daten haben derzeit schon mehr Standards und kann daher mehr Datensätze zur Verfügung stellen als anderer Bereiche.&lt;/li&gt;
+  &lt;li&gt;Datenhistorie
+    &lt;ul&gt;
+      &lt;li&gt;Was die Gemeinde reinstellt, geht rein.&lt;/li&gt;
+      &lt;li&gt;Es gibt statiste Daten und dynamische Daten.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;In der vorherigen Version des Portals gibt es noch Haushaltsplandaten von 2007 bis 2014&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sat, 29 Nov 2014 00:00:00 +0100</pubDate>
+        <link>http://www.opencitycamp.de/14/open-data-portal-bawue</link>
+        <guid isPermaLink="true">http://www.opencitycamp.de/14/open-data-portal-bawue</guid>
+        
+        
+        <category>14</category>
+        
+      </item>
+    
+      <item>
+        <title>Nahverkehrsdaten in Deutschland – Status Quo</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Nicht das Auto, sondern der ÖPNV ist die Zukunft. Aber der ist nur etwas für Kenner! Das darf nicht sein.&lt;/li&gt;
+  &lt;li&gt;Soll-Fahrplandaten sind i.d.R. in Deutschland immer noch „streng geheim“
+    &lt;ul&gt;
+      &lt;li&gt;Außerdem Fortmatvielfalt: HAFAS, DIVA, IVU.pool, DINO, Geofox, …&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Der VDV hat eine Empfehlung zu Open Data in der VDV-Schrift 7030
+    &lt;ul&gt;
+      &lt;li&gt;PDF kostet 30 Euro&lt;/li&gt;
+      &lt;li&gt;Quintessenz: Sollfahrpläne als Open Data soll man lieber nicht anbieten, sondern bloß Schnittstellen (wird vom VDV „Open Service“ genannt)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Die offiziellen Schnittstellen können aber immer noch vieles nicht
+    &lt;ul&gt;
+      &lt;li&gt;Beispiel: Ulmer Buslinie 15 („Geheimtipp“) fährt von Uni Nord nach Weststadt. Auskunft berücksichtigt aber in der Regel nur die Abfahrt von der Uni Süd. Die 15 taucht so nicht auf.
+        &lt;ul&gt;
+          &lt;li&gt;Ortsunkundige finden nicht den Weg durch den Campus (Uni Süd → Uni Nord), d.h. für „Normal-Fahrgäste“ ist die Beauskunftung ohne Berücksichtigung der Uni Nord u.U. ganz gut so. Expert_innen, die sich in der Uni zurechtfinden, ärgert das aber.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Beispiel: Ich habe ein Semesterticket (oder einen anderen Zeitfahrschein)
+        &lt;ul&gt;
+          &lt;li&gt;Welches Ticket brauche ich von A nach C, wenn mein Zeitfahrschein von A bis B gilt, und von B bis C ein anderer Verbundtarif gilt? Z.B. von Ulm nach Stuttgart: Bis Geislingen gilt das DING-Semesterticket, ab Geislingen bis Stuttgart der VVS-Tarif&lt;/li&gt;
+          &lt;li&gt;DB sagt bei einer Abfrage Geislingen→Stuttgart: VVS verkaufe ich nicht, Preisauskunft nicht möglich!&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;was-sind-eigentlich-pnv-daten&quot;&gt;Was sind eigentlich ÖPNV-Daten?&lt;/h1&gt;
+
+&lt;p&gt;Im ÖPNV fällt eine ganze Menge an Daten an:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Haltepunkte&lt;/li&gt;
+  &lt;li&gt;Wegestrecken&lt;/li&gt;
+  &lt;li&gt;Zeitstrecken&lt;/li&gt;
+  &lt;li&gt;Betriebspunkte&lt;/li&gt;
+  &lt;li&gt;Linien&lt;/li&gt;
+  &lt;li&gt;Wegemuster (Journey Patterns)&lt;/li&gt;
+  &lt;li&gt;Fahrten&lt;/li&gt;
+  &lt;li&gt;Tarife&lt;/li&gt;
+  &lt;li&gt;Umläufe&lt;/li&gt;
+  &lt;li&gt;Dienstplanung&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Viele dieser Daten sind ganz furchtbar geheim, denn ein Konkurrent könnte bei einer Neuauschreibung aus der jahrelangen Erfahrung des derzeitigen Anbieters bei der Umlaufplanung profitieren und einfach dessen erprobte Umläufe übernehmen. Oder noch „schlimmer“: Auslastungsstatistiken verwenden, um sich bei einer Ausschreibung auf die Filetstücke zu bewerben. (Was die Wettbewerber davon abhalten soll, einfach selber im Bus mitzufahren und zu zählen, hat mir noch niemand erklären können).&lt;/p&gt;
+
+&lt;p&gt;Realitätscheck: Die Lieblings-ÖPNV-Datenaustauschformate (nach Häufigkeit absteigend sortiert) sind:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;liniertes Papier/Excel&lt;/li&gt;
+  &lt;li&gt;HAFAS&lt;/li&gt;
+  &lt;li&gt;DIVA (DING verwendet DIVA; aber DIVA-Modellierung eines bayerischen Bus-Fahrplanzulieferers ist inkompatibel zur DIVA-Modellierung des DING!)&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;ÖPNV-Datenmodell des VDV&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;DIVA
+    &lt;ul&gt;
+      &lt;li&gt;unlesbares Monster&lt;/li&gt;
+      &lt;li&gt;siehe Diplomarbeit von Stefan Kaufmann&lt;/li&gt;
+      &lt;li&gt;Gauss-Krüger-Abbildung mit speziellem Koordinatenursprung&lt;/li&gt;
+      &lt;li&gt;Nordwert mit eigenem Offset von -6 000 615 km!&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Warum veröffentlichen Verbünde keine offenen Daten? (Umfrage)
+    &lt;ul&gt;
+      &lt;li&gt;Verbünde haben nicht das Wissen über das Lizenzrecht&lt;/li&gt;
+      &lt;li&gt;hätten gerne ein Handbuch zum Thema Open-Data&lt;/li&gt;
+      &lt;li&gt;Könnten Anwendungen Dritter die Attraktivität ihres Angebots (Busse und Bahnen) nützen? – Ja&lt;/li&gt;
+      &lt;li&gt;Könnten Drittanwendungen Ihnen Geld sparen? – eher Nein&lt;/li&gt;
+      &lt;li&gt;Ist das Bereitstellen der Fahrplanauskunft Aufgabe des Verkehrsverbunds/-unternehmens? – stark Ja&lt;/li&gt;
+      &lt;li&gt;Sollten Dritte, wenn sie Geld verdienen, auch für die Daten bezahlen? – Ja.&lt;/li&gt;
+      &lt;li&gt;Werden die Kunder uns für die falschen Auskünfte Dritter schuldig machen? – starke Ja.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Urheberrechtsschutz für Fahrplandaten (als Werk oder Datenbankwerk oder Investitionsschutz)
+    &lt;ul&gt;
+      &lt;li&gt;Forschungsbericht Stadtentwicklung&lt;/li&gt;
+      &lt;li&gt;Zusammenfassung: vermutlich Nein, bei Rohdaten&lt;/li&gt;
+      &lt;li&gt;Aber: Verantwortlichkeit für Korrektheit liegt bei dem Verkehrsverbünde, laut den Verkehrsverbünde.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Deutschland != USA
+    &lt;ul&gt;
+      &lt;li&gt;Vor vier Jahren wäre die Anwesenheit eines VVSlers undenkbar gewesen.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Es geht um GTFS Daten – also Plane, keine Echtzeitauskünfte&lt;/li&gt;
+  &lt;li&gt;Es fehlen intermodale Auskünfte (z.B., mit Car2Go, Bus und Zug).
+    &lt;ul&gt;
+      &lt;li&gt;innerdeutsch, bloß ÖPNV geht noch (ohne Preisauskunft), aber nicht international und mehrere Verkehrsmittel&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;diskussionsrunde&quot;&gt;Diskussionsrunde&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Deutsche Verkehrswissenschaftliche Gesellschaft&lt;/li&gt;
+  &lt;li&gt;Was kriegt man von der DB?
+    &lt;ul&gt;
+      &lt;li&gt;Nichts&lt;/li&gt;
+      &lt;li&gt;keine Kooperation&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Wie funktioniert es beii der Bahn selbst?
+    &lt;ul&gt;
+      &lt;li&gt;Positionsbestimmung über Blocksignale und Betriebsstellen (Bahnhöfe)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Wer scrapet sonst noch?
+    &lt;ul&gt;
+      &lt;li&gt;OpenDataCity?? Berlin&lt;/li&gt;
+      &lt;li&gt;Openstreetmap scrapt nicht!&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Problem ist, die gescrapete Daten sind „illegal“&lt;/li&gt;
+  &lt;li&gt;Unternehmen denken noch nicht an die Kunden
+    &lt;ul&gt;
+      &lt;li&gt;Bahn-Twitter “geht” um 23 Uhr „schlafen“.&lt;/li&gt;
+      &lt;li&gt;Da läuft noch die Transformation.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Wo sind die Innovationspotentiale aus VVS-Sicht? Ist der Rückkanal Fahrgast → Verbund nicht interessant? (technische Störungen, kaputtes Licht)&lt;/li&gt;
+  &lt;li&gt;Echtzeitdaten an Anschlüsse (Bus wartet auf S-Bahn) weitergeben ist ein Projekt des VVS
+    &lt;ul&gt;
+      &lt;li&gt;Man ist derzeit „in den letzten Zügen“, dass man langsam von allen Unternehmen die Echtzeitdaten bekommt. Man feilt noch an der Datenqualität. Busfahrer muss noch die Information bekommen.&lt;/li&gt;
+      &lt;li&gt;Es wird durchaus vom VVS an so einem System gearbeitet und die Daten werden „demnächst“ ausgeteilt?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Man sollte darauf hinarbeiten, dass bei der anstehenden Auschreibung der Regionalzüge in BW die Leistungsbeschreibungen Open-Data-freundlich sind
+    &lt;ul&gt;
+      &lt;li&gt;Hinweis auf User locomotive breath auf Drehscheibe-Online&lt;/li&gt;
+      &lt;li&gt;über Abgeordnetenwatch sollte man über Andre bei Herrn Verkehrsminister Herrmann
+        &lt;ul&gt;
+          &lt;li&gt;Enthalten die Leistungsbeschreibungen zu den Auschreibungen der Regionalverkehre, die Anforderung, dass das Land das Recht erhält, die Solldaten und die Echtverkehrsdaten der betreffenden Regionalverkehre erstens zu erhalten und zweiten als Open-Data in Echtzeit ins Netz zu stellen?&lt;/li&gt;
+          &lt;li&gt;http://www.abgeordnetenwatch.de/frage-597-44442–f428392.html#q428392&lt;/li&gt;
+          &lt;li&gt;Die Frage wurde von Herrn Schwarz zeitnah - aber leider unvollständig - beantwortet “.. Alle Fragen zur Ausschreibung, zum Betriebskonzept, zum Lastenheft und  zum weiteren Vorgehen finden Sie in der &lt;a href=&quot;http://www.landtag-bw.de/files/live/sites/LTBW/files/dokumente/WP15/Drucksachen/5000/15_5115_D.pdf&quot;&gt;Landtagsdrucksache 15/5115&lt;/a&gt;. .. Einzelne Fragen zu Bekanntgabe der Echtzeitdaten bzw. zum Stand der  Veröffentlichungen der Ausschreibungen beantwortet Ihnen gerne die Nahverkehrsgesellschaft.” &lt;/li&gt;
+          &lt;li&gt;Vor einiger Zeit war in der Presse zu lesen, dass das Land ein Förderprogramm für private Busverkehr zur Installation von GPS-Geräten in den Bussen mit dem Ziel, dass das Land mit den Daten, die es gewinnt, eine Verkehrsauskunftsapp erstellt. Stellt das Land die Daten auch als Open-Data ins Netz?&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Google hätte selbst Performancerobleme, die Echtzeitdaten weltweit live ins Netz zu streamen.&lt;/li&gt;
+  &lt;li&gt;Verträge mit dem VVS sagen, Echtzeitdaten durfen für kommerzielle zwecken NICHT weitergegeben werden [also das ist für OpenData auch ein Problem – die meiste Definitionen erfordern das.]&lt;/li&gt;
+  &lt;li&gt;Datenethik
+    &lt;ul&gt;
+      &lt;li&gt;Muss also öffentlich sein?&lt;/li&gt;
+      &lt;li&gt;Angriffe auf öffentliche Infrastruktur (Terror, Gefahrgutgegner)? – Der Terrorist macht es auch ohne.&lt;/li&gt;
+      &lt;li&gt;Datenschutz ist auch ein Thema [sehe auch vorherige session: https://datalove.edupad.uni-konstanz.de/38 ]&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Katrin Dziekan (Umweltbundesamt)
+    &lt;ul&gt;
+      &lt;li&gt;Vor und nach der Einführung der elektronischer Infotafeln an Haltestellen in Oslo&lt;/li&gt;
+      &lt;li&gt;gefühlte Verbesserung der Taktdichte, 250.000 Euro Investitionskosten in die Tafeln&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Mit Open-Data braucht der Verbund nicht jede Station mit einer Tafel ausstatten. Der Dorfladen neben der Haltestelle könnte einen Bildschirm hinters Fenster hängen.&lt;/li&gt;
+  &lt;li&gt;Es ist eine Einstellungssache. Wenn die Verbünde den Nutzen erkennen, dann braucht man nicht den Weg über die Politik.
+    &lt;ul&gt;
+      &lt;li&gt;HVV (Hamburg) ist weiter/fortschrittlicher (App enthält auch externe Anbieter)&lt;/li&gt;
+      &lt;li&gt;VVS bringt demnächst eine intermodale Erweiterung in seiner App&lt;/li&gt;
+      &lt;li&gt;Ulm läuft vermutlich etwas hinterher mit intermodale Daten.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Werden die Busdaten (GPS) automatisch an die Zentrale gegeben?
+    &lt;ul&gt;
+      &lt;li&gt;VVS-System sammelt die Daten (von Busfirmen, DB-RIS, SSB), bündelt sie und verbreitet sie.&lt;/li&gt;
+      &lt;li&gt;Beispiel: Abfahrtsmonitor am Milaneo&lt;/li&gt;
+      &lt;li&gt;Die meisten Busse haben schon Bordgeräte (Fahrscheindrucker) gehabt, extra Gerät für Echtzeitfähigkeit.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Verkehrssteuerung: Werden historische Daten zur Prognose genutzt?&lt;/li&gt;
+  &lt;li&gt;VVS-Apps: “Das Stück Google fehlt noch in der App.” Die App ist noch nicht intelligent genug bei der Haltestellensuche.
+    &lt;ul&gt;
+      &lt;li&gt;Nächste Version hat dieselben Vorzüge wie die Onlinevariante&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Wünsche
+    &lt;ul&gt;
+      &lt;li&gt;Mit offenen Daten kann ich ganz ungewöhnliche Abfragen auch mal machen, da dafür kein wirtschaftilches Interesse machen.
+        &lt;ul&gt;
+          &lt;li&gt;Von Aachen nach Düsseldorf Hbf bei GdL-Streik ohne DB Regio: Das geht nicht.
+            &lt;ul&gt;
+              &lt;li&gt;EFA-BW (nur BW!) kann’s, aber nicht ganz Deutschland&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;möglichst günstig von Ulm nach Frankfurt Flughafen&lt;/li&gt;
+          &lt;li&gt;Semesterticket + Länderticket + BC25 + x nach Y&lt;/li&gt;
+          &lt;li&gt;VVS sperrt bei SSB-Streik die SSB-Verkehre in der EFA und bietet dann längere Fußwege und Fahrräder an.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Warum entwickelt man Apps, wenn es auch schon Google macht und die eigene App das nie so gut hinbekommt?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Save the date: &lt;code&gt;Name fehlt&lt;/code&gt; als Hackday o.ä. zu ÖPNV&lt;/li&gt;
+  &lt;li&gt;Empfehlung, die Kooperation mit dem Landesverkehrsministeriums zu suchen, damit es Mitträger einer solchen Veranstaltung wird. Das Ministerium hat einen starken Einfluss, darauf, was mit den Verkehrsdaten der öffentlichen Hand passiert. Es würde bei den wichtigen Leuten das Verständnis für die Anliegen der Community fördern.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Link: http://www.dvwg-wuerttemberg.de/ - DVWG Württemberg e. V.
+Hardwareunit zur Standorterfassung der ÖPNV Fahrzeuge: IBIS, Bordgeräte mit Echtzeit&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 29 Nov 2014 00:00:00 +0100</pubDate>
+        <link>http://www.opencitycamp.de/14/offene-nahverkehrsdaten-in-deutschland</link>
+        <guid isPermaLink="true">http://www.opencitycamp.de/14/offene-nahverkehrsdaten-in-deutschland</guid>
+        
+        
+        <category>14</category>
+        
+      </item>
+    
+      <item>
+        <title>Kleine Hacker_innen</title>
+        <description>&lt;p&gt;Hintergrund: &lt;a href=&quot;https://twitter.com/gruenzeug&quot;&gt;Juka&lt;/a&gt; ist aktiv bei den &lt;a href=&quot;http://www.uni-ulm.de/in/fakultaet/studieninteressierte/wissenschaffer.html&quot;&gt;WissenSchaffer_innen an der Uni Ulm&lt;/a&gt;. Dort besucht sie Schulen und informiert über Universitätsstudium, Elektrotechnik und Informatik. Seit einigen Jahren bieten die WissenSchaffer auch Kurse z.B. am Girl’s Day an, oder für die Hector-Kinderakademie (Klasse 2 bis 4)&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;a href=&quot;https://www.flickr.com/photos/okfde/15819341847&quot; title=&quot;OpenCityCamp Stuttgart 2014 by Open Knowledge Foundation Deutschland, on Flickr&quot;&gt;&lt;img src=&quot;https://farm9.staticflickr.com/8635/15819341847_7a56beac12_z.jpg&quot; width=&quot;640&quot; height=&quot;427&quot; alt=&quot;OpenCityCamp Stuttgart 2014&quot; /&gt;&lt;/a&gt;
+&lt;figcaption&gt;
+  Bild &lt;a href=&quot;https://creativecommons.org/licenses/by/2.0/&quot;&gt;CC-BY&lt;/a&gt; Awesome Pixels.
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Angefangen haben sie mit dem Programm &lt;a href=&quot;http://drtechniko.com/2012/04/09/how-to-train-your-robot/&quot;&gt;How to train your robot&lt;/a&gt;. Die Idee des Originalkurses: Kinder „steuern“ ihre_n Eltern-Roboter_in mit einfachen Befehlen ( vor, zurück, hüpfen, …), die sie auf eine „Programmausführungskarte“ zeichnen. Die Eltern führen diese dann aus. Dies animiert Kinder, neue Befehle zu überlegen und mit Konstrukten wie Mehrfachausführung etc. bekannt zu machen.&lt;/p&gt;
+
+&lt;p&gt;In der Ulmer Variante sind keine Elternteile anwesend, d.h. die Kinder „programmieren“ sich gegenseitig, um einen Parcours abzugehen und einen Ball zurück zur „Basis“ zu bringen. In der Folgewoche wurden die Konzepte dann nochmals am Rechner geübt, ursprünglich mit einem selbstgestrickten Programm, das von der Ausführung her ähnlich wie Lightbot funktionierte.&lt;/p&gt;
+
+&lt;p&gt;In der kommenden Ausgabe des Hector-Programms wird das Programm überarbeitet. Tollerweise gibt es Unterrichtsmaterial (frei lizenziert) von &lt;a href=&quot;http://code.org&quot;&gt;code.org&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;unplugged-bungen-ohne-rechner&quot;&gt;Unplugged-Übungen (ohne Rechner)&lt;/h2&gt;
+
+&lt;figure&gt;
+  &lt;a href=&quot;https://www.flickr.com/photos/okfde/15979287416&quot; title=&quot;OpenCityCamp Stuttgart 2014 by Open Knowledge Foundation Deutschland, on Flickr&quot;&gt;&lt;img src=&quot;https://farm9.staticflickr.com/8663/15979287416_3789442466_z.jpg&quot; width=&quot;640&quot; height=&quot;427&quot; alt=&quot;OpenCityCamp Stuttgart 2014&quot; /&gt;&lt;/a&gt;
+&lt;figcaption&gt;
+  Bild &lt;a href=&quot;https://creativecommons.org/licenses/by/2.0/&quot;&gt;CC-BY&lt;/a&gt; Awesome Pixels.
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;http://csedweek.org/unplugged/thinkersmith Full lesson plan: http://code.org/files/CSEDrobotics.pdf&lt;/p&gt;
+
+&lt;p&gt;Szenario: Roboterarm baut vorgegebenen Becherstapel, Kinder programmieren ihren Roboter (ein Kind aus der Gruppe) mit ihrem Befehlssatz:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;↑ Becher aufnehmen&lt;/li&gt;
+  &lt;li&gt;→ Eine Einheit nach rechts (½ Becherbreite)&lt;/li&gt;
+  &lt;li&gt;← eine Einheit nach links&lt;/li&gt;
+  &lt;li&gt;↓ Becher abstellen&lt;/li&gt;
+  &lt;li&gt;↷ 180° nach rechts drehen&lt;/li&gt;
+  &lt;li&gt;↶ 180° nach links drehen&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Vorteil: Jedes Kind/Gruppe kann verschiedene Aufgaben lösen und den Schwierigkeitsgrad anpassen.&lt;/p&gt;
+
+&lt;p&gt;Idee dahinter ist: Gar nicht sofort am Computer programmieren, eher Hinführung zu den allgemeinen Konzepten algorithmischer Problemlösung - wie der konkrete Befehl heißt, ist nicht relevant.&lt;/p&gt;
+
+&lt;h2 id=&quot;weitere-kursmglichkeiten&quot;&gt;Weitere Kursmöglichkeiten&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://code.org/learn&quot;&gt;Code.org&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Programmieren beibringen auf ganz verschiedene Weisen, etwa RoboMind, Binärcodes&lt;/li&gt;
+      &lt;li&gt;allerdings viele Sachen nur in Englisch verfügbar
+        &lt;ul&gt;
+          &lt;li&gt;entweder selbst übersetzen (dann aber auch englische Befehle) oder auf Übersetzung warten, die Community ist dran (machen die Ulmer auch schon)&lt;/li&gt;
+          &lt;li&gt;aber: Englisch fühlt sich mehr nach Programmieren an, auch für junge Teilnehmer_innen&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Projekt aus Bayern: &lt;a href=&quot;http://www.schule.bayern.de/karol/&quot;&gt;Robot Karol&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://coderdojo.com/&quot;&gt;Coderdojo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Idee: Kinderprogrammierkurse parallel zu Confs und Barcamps. Motto: “Du kannst nicht kommen, wegen Deiner Kinder? Bring sie einfach mit!”&lt;/p&gt;
+
+&lt;h2 id=&quot;diskussion-und-feedback&quot;&gt;Diskussion und Feedback&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ist das Konzept auch in der Erwachsenenbildung einsetzbar?
+    &lt;ul&gt;
+      &lt;li&gt;Klar, warum nicht?&lt;/li&gt;
+      &lt;li&gt;Ziele der aktuellen Lerneinheit nochmal zusammenfassen, das ist Kindern nicht so wichtig.&lt;/li&gt;
+      &lt;li&gt;Bezug zu “echten” Programmiersprachen nicht immer klar - es wird kein Python, Java, … gelehrt Es gibt aber auf code.org auch Projekte zur Hinführung zu konkreten Programmiersprachen&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;link--und-materialsammlung&quot;&gt;Link- und Materialsammlung&lt;/h2&gt;
+
+&lt;h1 id=&quot;code-academy&quot;&gt;Code Academy&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.codecademy.com/&quot;&gt;Code Academy&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;breites Angebot an Programmiersprachen, auch HTML, CSS&lt;/li&gt;
+  &lt;li&gt;Von Basics bis Fortgeschrittene&lt;/li&gt;
+  &lt;li&gt;an Erwachsene gerichtet&lt;/li&gt;
+  &lt;li&gt;sehr individuelles Feedback: “Könnte irgendwo ein Apostroph fehlen?”, nicht einfach nur Fehler &amp;amp; Lösung aufzeigen&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;common-kids-can-code&quot;&gt;Common Kids can Code&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://manubloggt.de/index.php?/archives/479-rp14-Common-kids-can-code!.html&quot;&gt;re:publica 2014 - Manuela Schauerhammer: Common kids can code&lt;/a&gt;, &lt;a href=&quot;http://manubloggt.de/uploads/Netzburger.pdf&quot;&gt;PDF&lt;/a&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube-nocookie.com/embed/bLc4ANdbGzI?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h1 id=&quot;weitere-links&quot;&gt;Weitere Links&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://code.org/learn&quot;&gt;http://code.org/learn&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://coderdojo.com/#zoom=3&amp;amp;lat=48.9225&amp;amp;lon=-35.15625&amp;amp;layers=00B0T&quot;&gt;http://coderdojo.com/#zoom=3&amp;amp;lat=48.9225&amp;amp;lon=-35.15625&amp;amp;layers=00B0T&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://chaosradio.ccc.de/cr207.html&quot;&gt;Chaosradio-Folge mit Jugend Hackt etc.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://codeweek.eu/resources/&quot;&gt;Codeweek&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sat, 29 Nov 2014 00:00:00 +0100</pubDate>
+        <link>http://www.opencitycamp.de/14/kleine-hackerinnen</link>
+        <guid isPermaLink="true">http://www.opencitycamp.de/14/kleine-hackerinnen</guid>
+        
+        
+        <category>14</category>
+        
+      </item>
+    
+      <item>
+        <title>Informationsfreiheitsgesetz</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Halteverbot für Fahrzeuge in der Innenstadt, Weshalb. Erklärung der Behörde ?&lt;/li&gt;
+  &lt;li&gt;Baumkataster&lt;/li&gt;
+  &lt;li&gt;Verkehrsplanung, Infrastrukturplanung, Verwendung öffentlicher Gelder&lt;/li&gt;
+  &lt;li&gt;Urban Gardening → Koordinierungsstelle (Stadt Stuttgart)&lt;/li&gt;
+  &lt;li&gt;Landkreis Heilbronn → schon automatisierter Ansatz (OKLab hat Skript/Formular, das eine Anfrage an alle 48 Rathäuser automatisch versendet)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ratsinformationssysteme&quot;&gt;Ratsinformationssysteme&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Bereich der Gemeindewebsite&lt;/li&gt;
+  &lt;li&gt;ab Ende Januar 2015 (eigentlich schon seit August 2013): OPARL (Open Parlament, Standard für diese Ratsinformationssysteme), welche von geobezogenen Newsletterdiensten angezapft werden können&lt;/li&gt;
+  &lt;li&gt;Umsetzung vsl. bis Ende 2015&lt;/li&gt;
+  &lt;li&gt;für Ratsinformationssysteme gibt es 3 bis 4 große Hersteller, z.B.
+    &lt;ul&gt;
+      &lt;li&gt;SessionNet&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Liste der Gemeinden, die eins haben, kann man teilweise auf den Herstellerwebsites finden&lt;/li&gt;
+  &lt;li&gt;sehr, sehr viele Informationen, man muss auch den parlamentarischen Hintergrund kennen, da nicht alles in Beschlüssen endet
+    &lt;ul&gt;
+      &lt;li&gt;Georeferenzierung würde sehr stark helfen
+        &lt;ul&gt;
+          &lt;li&gt;wurde in Trier gemacht (Geokoordinaten bei jedem Thema ergänzt)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Es geht um Datensätze und nicht bloß um Transparenz!
+    &lt;ul&gt;
+      &lt;li&gt;Firmen&lt;/li&gt;
+      &lt;li&gt;Ehrenamtliche&lt;/li&gt;
+      &lt;li&gt;…&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Problem, dass manchmal mit Daten Geld eingenommen wird&lt;/li&gt;
+  &lt;li&gt;Handelsregister ist kostenpflichtig, Zeitungen haben Pauschalzugang
+    &lt;ul&gt;
+      &lt;li&gt;England ist fortschrittlicher: opencorporates.com (besonders viele indische Unternehmen)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;EEG-Anlagenregister und Zahlungen müssen offengelegt werden (Straße, Hausnummer, Geldbetrag)&lt;/li&gt;
+  &lt;li&gt;in kleinen Gemeinden sind die Amtsblätter kostenpflichtig&lt;/li&gt;
+  &lt;li&gt;Es ist ein Aufwand, Haushaltsdaten aus dem SAP-System herauszuholen und brauchbar aufzubereiten. Wenn das nur zwei Gemeinden (Kunden des Gemeinderechenzentrums) sind, dann lohnt es sich nicht, das zu automatisieren. Wenn aber ein paar Dutzend Gemeinden kommen, dann lohnt sich die Entwicklung eines “Konverters”.&lt;/li&gt;
+  &lt;li&gt;Kammerparlamente (IHK et.al.) sind ziemlich unoffen -&amp;gt; da täte Abgeordnetenwatch gut&lt;/li&gt;
+  &lt;li&gt;Standardisierung beißt sich mit der kommunalen Selbstverwaltung
+    &lt;ul&gt;
+      &lt;li&gt;Wenn das Land den Kommunen Standards “aufzwingen” will, dann muss es ggf. auch Geld beilegen&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Rheinland-Pfalz hat mehr Kooperation zwischen den Gemeinden, da dort die Gemeinden kleiner sind
+    &lt;ul&gt;
+      &lt;li&gt;Manche Gemeinden haben schon eigene Standards, die bei einem neuen Standard überflüssig werden.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Auf 95 % der Daten auf Kommunalebene hat man keinen Durchgriff, außer man schießt Ged zu.
+    &lt;ul&gt;
+      &lt;li&gt;Nur bei einem Bereich gibt es Zwangs-Konnexität, der Zensus.&lt;/li&gt;
+      &lt;li&gt;In Baden-Württemberg gibt es drei kommunale Rechenzentrum. (früher 8)
+        &lt;ul&gt;
+          &lt;li&gt;Das ist keine Konkurrenzsituation. Die Kunden sind fest verteilt. Es gibt eine gewisse Kooperation zwischen den Rechenzentren.&lt;/li&gt;
+          &lt;li&gt;Ganz BW hat dasselbe System für Gemeindewebsites.&lt;/li&gt;
+          &lt;li&gt;Die Rechenzentren sind nur Speicherer der Daten. Freigabe muss durch Gemeinden beauftragt werden.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Wenn viele Gemeinden dasselbe Bedürfnis haben, dann entsteht auch schnell ein Standard.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Für Förderung gibt es i.d.R. das Kriterium, dass das Projekt noch nicht begonnen hat.&lt;/li&gt;
+  &lt;li&gt;Die Haltung in der Verwaltung: Man hat Angst, dass man mit Anfragen plattgemacht wird (Flut an Anfragen). Der große Tsunami kommt aber nicht. (Erfahrung Geiger/Ulm)
+    &lt;ul&gt;
+      &lt;li&gt;Man hat Angst, dass die Daten falsch interpretiert werden.&lt;/li&gt;
+      &lt;li&gt;Man will nicht, dass Firmen die Daten “raussaugen” und damit die Konkurrenz “niedermachen”.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Hamburg
+    &lt;ul&gt;
+      &lt;li&gt;bei Neuausschreibungen wird mittlerweile (seit ca. 2 Jahren) geachtet, dass neue Software einen Schnittstelle zum Transparenzportal hat und man beim Einkaufen von Daten, Dienstleistungen und Studien auf die Lizenzproblematik achtet&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;SINUS, Heidelberg Mileustudien -&amp;gt; nicht zugänglich&lt;/li&gt;
+  &lt;li&gt;Wenn Daten zur wirtschaftlichen Nutzung freigegeben werden, kommen Haftungsfragen ins Spiel. (Baumpfleger vertippt sich, falsche Entscheidungen werden auf Basis der Daten getroffen)
+    &lt;ul&gt;
+      &lt;li&gt;Es gehört zur staatl. Dienstleistung.&lt;/li&gt;
+      &lt;li&gt;Haftungsausschlüsse funktionieren bei freien Lizenzen (es gibt schon Urteile zum GPL-Haftungsauschluss), also einfach sagen: “Gegen Bezahlung gibt es Haftung, Free-Version ohne Haftungsauschluss”&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Heilbronner Beispiele (Baumkataster, Müllabfuhrkarte) gibt es uunter codefor.de/heilbronn
+    &lt;ul&gt;
+      &lt;li&gt;Wenn man als Dankeschön als Community der Gemeinde etwas gibt (z.B. Abfallkalender-PDF-Exporter), dann stellt sich die Problematik, ob es Verträge gibt. Ohne Vertrag keine Bindung/Verlässlichkeit, aber die Dienste sind staatliche Dienste müssen langfristig angeboten werden.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Maschinenlesbarkeit führt zu leichterer Automatisierbarkeit
+    &lt;ul&gt;
+      &lt;li&gt;z.B. den passenden Mülleimer in der passenden Nacht automatisch rausschieben (per Roboter)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;forderung-fr-ifg-bw&quot;&gt;Forderung für IFG BW&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Klärung der Kosten (damit man nicht als Fragesteller gleich mal einen 200-Euro-Gebührenbescheid bekommt)&lt;/li&gt;
+  &lt;li&gt;auch für Informationen aus Regierungspräsidien, Landkreisen und Kommunen&lt;/li&gt;
+  &lt;li&gt;Justiziare sollen Verträge mit Dienstleistern überprüfen, ob man die Studien einfach so veröffentlichen und ggf. freigeben darf
+    &lt;ul&gt;
+      &lt;li&gt;Bei Ausschreibungen soll Datenfreiheit gleich mitgefordert werden, z.B. Müllabfuhr, ÖPNV-Ausschreibungen (Ausschreibung SPNV), …&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Maschinenlesbarkeit
+    &lt;ul&gt;
+      &lt;li&gt;Friedrich-Ebert-Stiftung bietet Schulungen an&lt;/li&gt;
+      &lt;li&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;linkliste&quot;&gt;Linkliste&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.gruene-landtag-bw.de/fileadmin/media/LTF/bawue_gruenefraktion_de/bawue_gruenefraktion_de/themen/demokratie_recht/Eckpunkte_IFG_Gruene_SPD_2014-11-25.pdf&quot;&gt;Eckpunktepapier der Grünen-Fraktion zum IFG&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.transparenzgesetz.de/&quot;&gt;Hamburger Transparenzgesetz&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.openjur.de&quot;&gt;openjur.de (Gerichtsurteile)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.asktheeu.org&quot;&gt;asktheeu.org (Frag den Staat für Europa)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://fragdenstaat.de&quot;&gt;fragdenstaat.de (für Deutschland)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://codefor.de/heilbronn&quot;&gt;Code for Heilbronn&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://oparl.org&quot;&gt;OParl&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sat, 29 Nov 2014 00:00:00 +0100</pubDate>
+        <link>http://www.opencitycamp.de/14/informationsfreiheitsgesetz</link>
+        <guid isPermaLink="true">http://www.opencitycamp.de/14/informationsfreiheitsgesetz</guid>
+        
+        
+        <category>14</category>
+        
+      </item>
+    
+      <item>
+        <title>Feinstaubmessungen</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Feinstaubmessgerät mitgebracht; sensor + Arduino&lt;/li&gt;
+  &lt;li&gt;Luftamt wählt Feinstaubmessorten, und die wahl ist möglich strategisch.&lt;/li&gt;
+  &lt;li&gt;Ziel war, selbst zu messen&lt;/li&gt;
+  &lt;li&gt;Optische Sensor à 15€ + Arduino board à 15€&lt;/li&gt;
+  &lt;li&gt;Es gibt eine Anleitung (für grovedust)&lt;/li&gt;
+  &lt;li&gt;Partikelgröße und die Formeln mussen umgerechnet werden&lt;/li&gt;
+  &lt;li&gt;Lärm kann man so ähnlich messen&lt;/li&gt;
+  &lt;li&gt;Messhäufigkeit ist bei manche sensoren ein Thema – über 30 sec wird gemessen&lt;/li&gt;
+  &lt;li&gt;Aufnahme gemacht mit Händi + GPS tracker; zusammengeführt über Uhrzeit. Künftige version wird an dem Händi schicken mittels BT. Energieversorgung mit USB batteriepack, SD Karte als speicher (Javascript wird verwendet zum speichern/umrechnen)&lt;/li&gt;
+  &lt;li&gt;Plotten: leaflet, D3JS&lt;/li&gt;
+  &lt;li&gt;http://datacolonia.de/blog/feinstaub.html&lt;/li&gt;
+  &lt;li&gt;http://howmuchsnow.com/arduino/airquality/grovedust&lt;/li&gt;
+  &lt;li&gt;Thema analyse:
+    &lt;ul&gt;
+      &lt;li&gt;FFTs könnten gute analyse ermöglichen&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Daten über ganz BaWü sind zu haben:
+    &lt;ul&gt;
+      &lt;li&gt;http://www.ulmapi.de/fineDustMeasurements/&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;in OKLab Stuttgart wurde das Thema auch vorgestellt
+    &lt;ul&gt;
+      &lt;li&gt;Idee: Leute bauen ihren eigenen Stationen&lt;/li&gt;
+      &lt;li&gt;Politisch vs. Wissenschaftlich ist ein Thema&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Doku TODOs
+    &lt;ul&gt;
+      &lt;li&gt;hardware kaufen?
+        &lt;ul&gt;
+          &lt;li&gt;Grovedust feinstaub sensor [Seeed Studio]&lt;/li&gt;
+          &lt;li&gt;Arduino: z.B. STN 32F4 discovery
+            &lt;ul&gt;
+              &lt;li&gt;oder generischen Arduino mit BT Modul&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;Kabeln?&lt;/li&gt;
+          &lt;li&gt;Batterie
+            &lt;ul&gt;
+              &lt;li&gt;generischen USB pack&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;µSD Karte&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;verkabeln?
+        &lt;ul&gt;
+          &lt;li&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;software downloaden?&lt;/li&gt;
+      &lt;li&gt;&lt;/li&gt;
+      &lt;li&gt;wo kann ich weiterarbeiten?&lt;/li&gt;
+      &lt;li&gt;wo finde ich weitere informationen?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sat, 29 Nov 2014 00:00:00 +0100</pubDate>
+        <link>http://www.opencitycamp.de/14/feinstaubmessungen</link>
+        <guid isPermaLink="true">http://www.opencitycamp.de/14/feinstaubmessungen</guid>
+        
+        
+        <category>14</category>
+        
+      </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,38 @@
+body {
+/*  background: #ffffd4; */
+}
+.top-bar {
+  background: #efefef;
+}
+      .top-bar .name h1 a, .top-bar .name h2 a, .top-bar .name h3 a, .top-bar .name h4 a, .top-bar .name p a, .top-bar .name span a {
+        color: #333333;
+}
+    .top-bar.expanded .title-area {
+      background: #efefef; }
+  .top-bar-section ul li {
+    background: #efefef; }
+    .top-bar-section ul li > a {
+      color: #333333;
+}
+  .top-bar-section ul li {
+    background: #efefef; }
+    .top-bar-section li:not(.has-form) a:not(.button) {
+      background: #efefef; }
+      .top-bar .toggle-topbar.menu-icon a {
+        color: #333333;
+}
+
+
+button, .button {
+  background-color: #803300;
+}
+  button:hover, button:focus, .button:hover, .button:focus {
+    background-color: #702000; }
+
+a {
+  color: #803300;
+  text-decoration: none;
+  line-height: inherit; }
+  a:hover, a:focus {
+    color: #702000; }
+

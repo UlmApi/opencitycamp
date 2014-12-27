@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nahverkehrsdaten in Deutschland – Status Quo</title>
+  <meta name="description" content="  Nicht das Auto, sondern der ÖPNV ist die Zukunft. Aber der ist nur etwas für Kenner! Das darf nicht sein.  Soll-Fahrplandaten sind i.d.R. in Deutschland im...">
+  
+  <link rel="stylesheet" href="/css/foundation.css">
+  <link rel="stylesheet" href="/css/app.css">
+  <link rel="canonical" href="http://www.opencitycamp.de/14/offene-nahverkehrsdaten-in-deutschland">
+  <link rel="alternate" type="application/atom+xml" title="OpenCityCamp" href="http://www.opencitycamp.de/feed.xml" />
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+
+
+  <body>
+
+     <div class="row">
+  <div class="large-12 columns">
+ 
+     
+      <nav class="top-bar" data-topbar>
+        <ul class="title-area">
+           
+          <li class="name">
+            <h1>
+              <a href="/">
+                OpenCityCamp
+              </a>
+            </h1>
+          </li>
+          <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
+        </ul>
+ 
+        <section class="top-bar-section">
+          <ul class="left">
+            <li><a href="/14">2014</a></li>
+            <li><a href="/13">2013</a></li>
+            <li><a href="/12">2012</a></li>
+          </ul>
+<!--          <ul class="right">
+            <li><a href="/about">Über das OCC</a></li>
+          </ul>-->
+
+        </section>
+        
+
+      </nav>
+ 
+     
+  
+    </div>
+  </div>
+
+
+
+  <div class="row">
+    <div class="large-12 columns">
+          <header class="post-header">
+    <h1 class="post-title">Nahverkehrsdaten in Deutschland – Status Quo</h1>
+    <p class="post-meta">29.11.2014 • Stefan Kaufmann</p>
+  </header>
+
+  <article class="post-content">
+    <ul>
+  <li>Nicht das Auto, sondern der ÖPNV ist die Zukunft. Aber der ist nur etwas für Kenner! Das darf nicht sein.</li>
+  <li>Soll-Fahrplandaten sind i.d.R. in Deutschland immer noch „streng geheim“
+    <ul>
+      <li>Außerdem Fortmatvielfalt: HAFAS, DIVA, IVU.pool, DINO, Geofox, …</li>
+    </ul>
+  </li>
+  <li>Der VDV hat eine Empfehlung zu Open Data in der VDV-Schrift 7030
+    <ul>
+      <li>PDF kostet 30 Euro</li>
+      <li>Quintessenz: Sollfahrpläne als Open Data soll man lieber nicht anbieten, sondern bloß Schnittstellen (wird vom VDV „Open Service“ genannt)</li>
+    </ul>
+  </li>
+  <li>Die offiziellen Schnittstellen können aber immer noch vieles nicht
+    <ul>
+      <li>Beispiel: Ulmer Buslinie 15 („Geheimtipp“) fährt von Uni Nord nach Weststadt. Auskunft berücksichtigt aber in der Regel nur die Abfahrt von der Uni Süd. Die 15 taucht so nicht auf.
+        <ul>
+          <li>Ortsunkundige finden nicht den Weg durch den Campus (Uni Süd → Uni Nord), d.h. für „Normal-Fahrgäste“ ist die Beauskunftung ohne Berücksichtigung der Uni Nord u.U. ganz gut so. Expert_innen, die sich in der Uni zurechtfinden, ärgert das aber.</li>
+        </ul>
+      </li>
+      <li>Beispiel: Ich habe ein Semesterticket (oder einen anderen Zeitfahrschein)
+        <ul>
+          <li>Welches Ticket brauche ich von A nach C, wenn mein Zeitfahrschein von A bis B gilt, und von B bis C ein anderer Verbundtarif gilt? Z.B. von Ulm nach Stuttgart: Bis Geislingen gilt das DING-Semesterticket, ab Geislingen bis Stuttgart der VVS-Tarif</li>
+          <li>DB sagt bei einer Abfrage Geislingen→Stuttgart: VVS verkaufe ich nicht, Preisauskunft nicht möglich!</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="was-sind-eigentlich-pnv-daten">Was sind eigentlich ÖPNV-Daten?</h1>
+
+<p>Im ÖPNV fällt eine ganze Menge an Daten an:</p>
+
+<ul>
+  <li>Haltepunkte</li>
+  <li>Wegestrecken</li>
+  <li>Zeitstrecken</li>
+  <li>Betriebspunkte</li>
+  <li>Linien</li>
+  <li>Wegemuster (Journey Patterns)</li>
+  <li>Fahrten</li>
+  <li>Tarife</li>
+  <li>Umläufe</li>
+  <li>Dienstplanung</li>
+</ul>
+
+<p>Viele dieser Daten sind ganz furchtbar geheim, denn ein Konkurrent könnte bei einer Neuauschreibung aus der jahrelangen Erfahrung des derzeitigen Anbieters bei der Umlaufplanung profitieren und einfach dessen erprobte Umläufe übernehmen. Oder noch „schlimmer“: Auslastungsstatistiken verwenden, um sich bei einer Ausschreibung auf die Filetstücke zu bewerben. (Was die Wettbewerber davon abhalten soll, einfach selber im Bus mitzufahren und zu zählen, hat mir noch niemand erklären können).</p>
+
+<p>Realitätscheck: Die Lieblings-ÖPNV-Datenaustauschformate (nach Häufigkeit absteigend sortiert) sind:</p>
+
+<ul>
+  <li>liniertes Papier/Excel</li>
+  <li>HAFAS</li>
+  <li>DIVA (DING verwendet DIVA; aber DIVA-Modellierung eines bayerischen Bus-Fahrplanzulieferers ist inkompatibel zur DIVA-Modellierung des DING!)</li>
+  <li>
+    <p>ÖPNV-Datenmodell des VDV</p>
+  </li>
+  <li>DIVA
+    <ul>
+      <li>unlesbares Monster</li>
+      <li>siehe Diplomarbeit von Stefan Kaufmann</li>
+      <li>Gauss-Krüger-Abbildung mit speziellem Koordinatenursprung</li>
+      <li>Nordwert mit eigenem Offset von -6 000 615 km!</li>
+    </ul>
+  </li>
+  <li>Warum veröffentlichen Verbünde keine offenen Daten? (Umfrage)
+    <ul>
+      <li>Verbünde haben nicht das Wissen über das Lizenzrecht</li>
+      <li>hätten gerne ein Handbuch zum Thema Open-Data</li>
+      <li>Könnten Anwendungen Dritter die Attraktivität ihres Angebots (Busse und Bahnen) nützen? – Ja</li>
+      <li>Könnten Drittanwendungen Ihnen Geld sparen? – eher Nein</li>
+      <li>Ist das Bereitstellen der Fahrplanauskunft Aufgabe des Verkehrsverbunds/-unternehmens? – stark Ja</li>
+      <li>Sollten Dritte, wenn sie Geld verdienen, auch für die Daten bezahlen? – Ja.</li>
+      <li>Werden die Kunder uns für die falschen Auskünfte Dritter schuldig machen? – starke Ja.</li>
+    </ul>
+  </li>
+  <li>Urheberrechtsschutz für Fahrplandaten (als Werk oder Datenbankwerk oder Investitionsschutz)
+    <ul>
+      <li>Forschungsbericht Stadtentwicklung</li>
+      <li>Zusammenfassung: vermutlich Nein, bei Rohdaten</li>
+      <li>Aber: Verantwortlichkeit für Korrektheit liegt bei dem Verkehrsverbünde, laut den Verkehrsverbünde.</li>
+    </ul>
+  </li>
+  <li>Deutschland != USA
+    <ul>
+      <li>Vor vier Jahren wäre die Anwesenheit eines VVSlers undenkbar gewesen.</li>
+    </ul>
+  </li>
+  <li>Es geht um GTFS Daten – also Plane, keine Echtzeitauskünfte</li>
+  <li>Es fehlen intermodale Auskünfte (z.B., mit Car2Go, Bus und Zug).
+    <ul>
+      <li>innerdeutsch, bloß ÖPNV geht noch (ohne Preisauskunft), aber nicht international und mehrere Verkehrsmittel</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="diskussionsrunde">Diskussionsrunde</h2>
+
+<ul>
+  <li>Deutsche Verkehrswissenschaftliche Gesellschaft</li>
+  <li>Was kriegt man von der DB?
+    <ul>
+      <li>Nichts</li>
+      <li>keine Kooperation</li>
+    </ul>
+  </li>
+  <li>Wie funktioniert es beii der Bahn selbst?
+    <ul>
+      <li>Positionsbestimmung über Blocksignale und Betriebsstellen (Bahnhöfe)</li>
+    </ul>
+  </li>
+  <li>Wer scrapet sonst noch?
+    <ul>
+      <li>OpenDataCity?? Berlin</li>
+      <li>Openstreetmap scrapt nicht!</li>
+    </ul>
+  </li>
+  <li>Problem ist, die gescrapete Daten sind „illegal“</li>
+  <li>Unternehmen denken noch nicht an die Kunden
+    <ul>
+      <li>Bahn-Twitter “geht” um 23 Uhr „schlafen“.</li>
+      <li>Da läuft noch die Transformation.</li>
+    </ul>
+  </li>
+  <li>Wo sind die Innovationspotentiale aus VVS-Sicht? Ist der Rückkanal Fahrgast → Verbund nicht interessant? (technische Störungen, kaputtes Licht)</li>
+  <li>Echtzeitdaten an Anschlüsse (Bus wartet auf S-Bahn) weitergeben ist ein Projekt des VVS
+    <ul>
+      <li>Man ist derzeit „in den letzten Zügen“, dass man langsam von allen Unternehmen die Echtzeitdaten bekommt. Man feilt noch an der Datenqualität. Busfahrer muss noch die Information bekommen.</li>
+      <li>Es wird durchaus vom VVS an so einem System gearbeitet und die Daten werden „demnächst“ ausgeteilt?</li>
+    </ul>
+  </li>
+  <li>Man sollte darauf hinarbeiten, dass bei der anstehenden Auschreibung der Regionalzüge in BW die Leistungsbeschreibungen Open-Data-freundlich sind
+    <ul>
+      <li>Hinweis auf User locomotive breath auf Drehscheibe-Online</li>
+      <li>über Abgeordnetenwatch sollte man über Andre bei Herrn Verkehrsminister Herrmann
+        <ul>
+          <li>Enthalten die Leistungsbeschreibungen zu den Auschreibungen der Regionalverkehre, die Anforderung, dass das Land das Recht erhält, die Solldaten und die Echtverkehrsdaten der betreffenden Regionalverkehre erstens zu erhalten und zweiten als Open-Data in Echtzeit ins Netz zu stellen?</li>
+          <li>http://www.abgeordnetenwatch.de/frage-597-44442–f428392.html#q428392</li>
+          <li>Die Frage wurde von Herrn Schwarz zeitnah - aber leider unvollständig - beantwortet “.. Alle Fragen zur Ausschreibung, zum Betriebskonzept, zum Lastenheft und  zum weiteren Vorgehen finden Sie in der <a href="http://www.landtag-bw.de/files/live/sites/LTBW/files/dokumente/WP15/Drucksachen/5000/15_5115_D.pdf">Landtagsdrucksache 15/5115</a>. .. Einzelne Fragen zu Bekanntgabe der Echtzeitdaten bzw. zum Stand der  Veröffentlichungen der Ausschreibungen beantwortet Ihnen gerne die Nahverkehrsgesellschaft.” </li>
+          <li>Vor einiger Zeit war in der Presse zu lesen, dass das Land ein Förderprogramm für private Busverkehr zur Installation von GPS-Geräten in den Bussen mit dem Ziel, dass das Land mit den Daten, die es gewinnt, eine Verkehrsauskunftsapp erstellt. Stellt das Land die Daten auch als Open-Data ins Netz?</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Google hätte selbst Performancerobleme, die Echtzeitdaten weltweit live ins Netz zu streamen.</li>
+  <li>Verträge mit dem VVS sagen, Echtzeitdaten durfen für kommerzielle zwecken NICHT weitergegeben werden [also das ist für OpenData auch ein Problem – die meiste Definitionen erfordern das.]</li>
+  <li>Datenethik
+    <ul>
+      <li>Muss also öffentlich sein?</li>
+      <li>Angriffe auf öffentliche Infrastruktur (Terror, Gefahrgutgegner)? – Der Terrorist macht es auch ohne.</li>
+      <li>Datenschutz ist auch ein Thema [sehe auch vorherige session: https://datalove.edupad.uni-konstanz.de/38 ]</li>
+    </ul>
+  </li>
+  <li>Katrin Dziekan (Umweltbundesamt)
+    <ul>
+      <li>Vor und nach der Einführung der elektronischer Infotafeln an Haltestellen in Oslo</li>
+      <li>gefühlte Verbesserung der Taktdichte, 250.000 Euro Investitionskosten in die Tafeln</li>
+    </ul>
+  </li>
+  <li>Mit Open-Data braucht der Verbund nicht jede Station mit einer Tafel ausstatten. Der Dorfladen neben der Haltestelle könnte einen Bildschirm hinters Fenster hängen.</li>
+  <li>Es ist eine Einstellungssache. Wenn die Verbünde den Nutzen erkennen, dann braucht man nicht den Weg über die Politik.
+    <ul>
+      <li>HVV (Hamburg) ist weiter/fortschrittlicher (App enthält auch externe Anbieter)</li>
+      <li>VVS bringt demnächst eine intermodale Erweiterung in seiner App</li>
+      <li>Ulm läuft vermutlich etwas hinterher mit intermodale Daten.</li>
+    </ul>
+  </li>
+  <li>Werden die Busdaten (GPS) automatisch an die Zentrale gegeben?
+    <ul>
+      <li>VVS-System sammelt die Daten (von Busfirmen, DB-RIS, SSB), bündelt sie und verbreitet sie.</li>
+      <li>Beispiel: Abfahrtsmonitor am Milaneo</li>
+      <li>Die meisten Busse haben schon Bordgeräte (Fahrscheindrucker) gehabt, extra Gerät für Echtzeitfähigkeit.</li>
+    </ul>
+  </li>
+  <li>Verkehrssteuerung: Werden historische Daten zur Prognose genutzt?</li>
+  <li>VVS-Apps: “Das Stück Google fehlt noch in der App.” Die App ist noch nicht intelligent genug bei der Haltestellensuche.
+    <ul>
+      <li>Nächste Version hat dieselben Vorzüge wie die Onlinevariante</li>
+    </ul>
+  </li>
+  <li>Wünsche
+    <ul>
+      <li>Mit offenen Daten kann ich ganz ungewöhnliche Abfragen auch mal machen, da dafür kein wirtschaftilches Interesse machen.
+        <ul>
+          <li>Von Aachen nach Düsseldorf Hbf bei GdL-Streik ohne DB Regio: Das geht nicht.
+            <ul>
+              <li>EFA-BW (nur BW!) kann’s, aber nicht ganz Deutschland</li>
+            </ul>
+          </li>
+          <li>möglichst günstig von Ulm nach Frankfurt Flughafen</li>
+          <li>Semesterticket + Länderticket + BC25 + x nach Y</li>
+          <li>VVS sperrt bei SSB-Streik die SSB-Verkehre in der EFA und bietet dann längere Fußwege und Fahrräder an.</li>
+        </ul>
+      </li>
+      <li>Warum entwickelt man Apps, wenn es auch schon Google macht und die eigene App das nie so gut hinbekommt?</li>
+    </ul>
+  </li>
+  <li>Save the date: <code>Name fehlt</code> als Hackday o.ä. zu ÖPNV</li>
+  <li>Empfehlung, die Kooperation mit dem Landesverkehrsministeriums zu suchen, damit es Mitträger einer solchen Veranstaltung wird. Das Ministerium hat einen starken Einfluss, darauf, was mit den Verkehrsdaten der öffentlichen Hand passiert. Es würde bei den wichtigen Leuten das Verständnis für die Anliegen der Community fördern.</li>
+</ul>
+
+<p>Link: http://www.dvwg-wuerttemberg.de/ - DVWG Württemberg e. V.
+Hardwareunit zur Standorterfassung der ÖPNV Fahrzeuge: IBIS, Bordgeräte mit Echtzeit</p>
+
+
+  </article>
+
+
+    </div>
+  </div>
+
+      <footer class="row">
+    <div class="large-12 columns">
+      <hr>
+      <div class="row">
+        <div class="large-6 columns">
+         <h6>Unsere Partner</h6>
+      <p><a href="http://innovation.mfg.de"><img src="/img/MFG-Innovationsagentur-4c.jpg"></a>
+      </p>
+      <p><a href="http://www.okfn.de"><img src="/img/okfn-logo-landscape.png"></a></p>
+      <p><a href="http://www.alda-europe.eu"><img src="/img/ALDA_eadl_LOGO_RGB_EN&FR.png"></a></p> 
+      <p><a href="https://eacea.ec.europa.eu/europe-for-citizens_en"><img src="/img/europeforcitizens.png"></a></p>
+        </div>
+        <div class="large-6 columns">         
+         <p>Die OpenCityCamps sind ein Projekt der <a href="http://www.ulmapi.de">datalove-Hochschulgruppe an der Universität Ulm</a>.</p>
+         <p><strong>Impressum</strong><br/>
+         datalove-Hochschulgruppe<br />
+         ℅ Verfasste Studierendenschaft KdöR<br />
+         Universität Ulm<br />
+         Albert-Einstein-Allee 11<br />
+         89081 Ulm</p>
+         <p>datalove bei uni-ulm.de</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+    <script src="/js/vendor/jquery.js"></script>
+    <script src="/js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+
+
+  </body>
+
+</html>

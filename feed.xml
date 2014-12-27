@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>OpenCityCamp</title>
-    <description>Dies sind die statischen Dokumentationsseiten für die bisherigen OpenCityCamps
+    <description>Dies sind die Dokumentationsseiten für die OpenCityCamps
 </description>
-    <link>http://www.opencitycamp.de/</link>
-    <atom:link href="http://www.opencitycamp.de/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 27 Dec 2014 17:55:00 +0100</pubDate>
-    <lastBuildDate>Sat, 27 Dec 2014 17:55:00 +0100</lastBuildDate>
+    <link>http://www.opencitycamp.de/opencitycamp//</link>
+    <atom:link href="http://www.opencitycamp.de/opencitycamp//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 27 Dec 2014 18:01:07 +0100</pubDate>
+    <lastBuildDate>Sat, 27 Dec 2014 18:01:07 +0100</lastBuildDate>
     <generator>Jekyll v2.5.1</generator>
     
       <item>
@@ -15,8 +15,8 @@
         <description>&lt;p&gt;Dies sollte ein Test sein&lt;/p&gt;
 </description>
         <pubDate>Sun, 28 Dec 2014 00:00:00 +0100</pubDate>
-        <link>http://www.opencitycamp.de/news/das-opencitycamp-2014-im-rueckblick</link>
-        <guid isPermaLink="true">http://www.opencitycamp.de/news/das-opencitycamp-2014-im-rueckblick</guid>
+        <link>http://www.opencitycamp.de/opencitycamp//news/das-opencitycamp-2014-im-rueckblick</link>
+        <guid isPermaLink="true">http://www.opencitycamp.de/opencitycamp//news/das-opencitycamp-2014-im-rueckblick</guid>
         
         
         <category>news</category>
@@ -81,8 +81,8 @@
 &lt;p&gt;Moderation u.a. von &lt;a href=&quot;https://twitter.com/_teecee&quot;&gt;@_teecee&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 29 Nov 2014 00:00:00 +0100</pubDate>
-        <link>http://www.opencitycamp.de/14/was-ist-eigentlich-opendata</link>
-        <guid isPermaLink="true">http://www.opencitycamp.de/14/was-ist-eigentlich-opendata</guid>
+        <link>http://www.opencitycamp.de/opencitycamp//14/was-ist-eigentlich-opendata</link>
+        <guid isPermaLink="true">http://www.opencitycamp.de/opencitycamp//14/was-ist-eigentlich-opendata</guid>
         
         
         <category>14</category>
@@ -134,8 +134,8 @@ Zusätzlich noch das Thema Daten, welche Daten sind verfügbar und wie können S
 
 </description>
         <pubDate>Sat, 29 Nov 2014 00:00:00 +0100</pubDate>
-        <link>http://www.opencitycamp.de/14/twitter-und-bloggrundlagen</link>
-        <guid isPermaLink="true">http://www.opencitycamp.de/14/twitter-und-bloggrundlagen</guid>
+        <link>http://www.opencitycamp.de/opencitycamp//14/twitter-und-bloggrundlagen</link>
+        <guid isPermaLink="true">http://www.opencitycamp.de/opencitycamp//14/twitter-und-bloggrundlagen</guid>
         
         
         <category>14</category>
@@ -283,8 +283,8 @@ Zusätzlich noch das Thema Daten, welche Daten sind verfügbar und wie können S
 
 </description>
         <pubDate>Sat, 29 Nov 2014 00:00:00 +0100</pubDate>
-        <link>http://www.opencitycamp.de/14/open-data-portal-bawue</link>
-        <guid isPermaLink="true">http://www.opencitycamp.de/14/open-data-portal-bawue</guid>
+        <link>http://www.opencitycamp.de/opencitycamp//14/open-data-portal-bawue</link>
+        <guid isPermaLink="true">http://www.opencitycamp.de/opencitycamp//14/open-data-portal-bawue</guid>
         
         
         <category>14</category>
@@ -500,8 +500,8 @@ Hardwareunit zur Standorterfassung der ÖPNV Fahrzeuge: IBIS, Bordgeräte mit Ec
 
 </description>
         <pubDate>Sat, 29 Nov 2014 00:00:00 +0100</pubDate>
-        <link>http://www.opencitycamp.de/14/offene-nahverkehrsdaten-in-deutschland</link>
-        <guid isPermaLink="true">http://www.opencitycamp.de/14/offene-nahverkehrsdaten-in-deutschland</guid>
+        <link>http://www.opencitycamp.de/opencitycamp//14/offene-nahverkehrsdaten-in-deutschland</link>
+        <guid isPermaLink="true">http://www.opencitycamp.de/opencitycamp//14/offene-nahverkehrsdaten-in-deutschland</guid>
         
         
         <category>14</category>
@@ -613,8 +613,8 @@ Hardwareunit zur Standorterfassung der ÖPNV Fahrzeuge: IBIS, Bordgeräte mit Ec
 
 </description>
         <pubDate>Sat, 29 Nov 2014 00:00:00 +0100</pubDate>
-        <link>http://www.opencitycamp.de/14/kleine-hackerinnen</link>
-        <guid isPermaLink="true">http://www.opencitycamp.de/14/kleine-hackerinnen</guid>
+        <link>http://www.opencitycamp.de/opencitycamp//14/kleine-hackerinnen</link>
+        <guid isPermaLink="true">http://www.opencitycamp.de/opencitycamp//14/kleine-hackerinnen</guid>
         
         
         <category>14</category>
@@ -755,8 +755,8 @@ Hardwareunit zur Standorterfassung der ÖPNV Fahrzeuge: IBIS, Bordgeräte mit Ec
 
 </description>
         <pubDate>Sat, 29 Nov 2014 00:00:00 +0100</pubDate>
-        <link>http://www.opencitycamp.de/14/informationsfreiheitsgesetz</link>
-        <guid isPermaLink="true">http://www.opencitycamp.de/14/informationsfreiheitsgesetz</guid>
+        <link>http://www.opencitycamp.de/opencitycamp//14/informationsfreiheitsgesetz</link>
+        <guid isPermaLink="true">http://www.opencitycamp.de/opencitycamp//14/informationsfreiheitsgesetz</guid>
         
         
         <category>14</category>
@@ -828,8 +828,8 @@ Hardwareunit zur Standorterfassung der ÖPNV Fahrzeuge: IBIS, Bordgeräte mit Ec
 
 </description>
         <pubDate>Sat, 29 Nov 2014 00:00:00 +0100</pubDate>
-        <link>http://www.opencitycamp.de/14/feinstaubmessungen</link>
-        <guid isPermaLink="true">http://www.opencitycamp.de/14/feinstaubmessungen</guid>
+        <link>http://www.opencitycamp.de/opencitycamp//14/feinstaubmessungen</link>
+        <guid isPermaLink="true">http://www.opencitycamp.de/opencitycamp//14/feinstaubmessungen</guid>
         
         
         <category>14</category>

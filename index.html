@@ -1,69 +1,12 @@
-<!DOCTYPE html>
-<html>
-
-    <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>OpenCityCamp</title>
-  <meta name="description" content="Dies sind die Dokumentationsseiten für die OpenCityCamps
-">
-  
-  <link rel="stylesheet" href="/css/foundation.css">
-  <link rel="stylesheet" href="/css/app.css">
-  <link rel="canonical" href="http://www.opencitycamp.de/">
-  <link rel="alternate" type="application/atom+xml" title="OpenCityCamp" href="http://www.opencitycamp.de/feed.xml" />
-    <script src="js/vendor/modernizr.js"></script>
-  </head>
-
-
-  <body>
-
-     <div class="row">
-  <div class="large-12 columns">
+---
+layout: default_14
+---
  
-     
-      <nav class="top-bar" data-topbar>
-        <ul class="title-area">
-           
-          <li class="name">
-            <h1>
-              <a href="/">
-                OpenCityCamp
-              </a>
-            </h1>
-          </li>
-          <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
-        </ul>
- 
-        <section class="top-bar-section">
-          <ul class="left">
-            <li><a href="/14">2014</a></li>
-            <li><a href="/13">2013</a></li>
-            <li><a href="/12">2012</a></li>
-          </ul>
-<!--          <ul class="right">
-            <li><a href="/about">Über das OCC</a></li>
-          </ul>-->
-
-        </section>
-        
-
-      </nav>
- 
-     
-  
-    </div>
-  </div>
-
-
-
   <div class="row">
-    <div class="large-12 columns">
-          <div class="row">
     <div class="large-12 columns">
  
         <div id="featured">
-              <img src="/img/occ-front.svg">
+              <img src="{{ "/img/occ-front.svg" | prepend: site.baseurl }}">
         </div>
  
     </div>
@@ -89,7 +32,7 @@
           <div class="large-8 columns">
  
             <p>Mehr als 60 Teilnehmende waren bis zu 400 Kilometer angereist, um sich über Open Data, Open Government, Datenjournalismus und darüber hinaus auszutauschen.</p>
-            <p>So gut wie alle Sessions wurden dokumentiert und nachbereitet – <a href="/14">der aktuelle Stand ist hier einzusehen</a>. Wer möchte, kann das Camp auch in <a href="https://www.flickr.com/photos/okfde/sets/72157649730863245/">der Bildergalerie</a> Revue passieren lassen :)
+            <p>So gut wie alle Sessions wurden dokumentiert und nachbereitet – <a href="{{ "/14" | prepend: site.baseurl }}">der aktuelle Stand ist hier einzusehen</a>. Wer möchte, kann das Camp auch in <a href="https://www.flickr.com/photos/okfde/sets/72157649730863245/">der Bildergalerie</a> Revue passieren lassen :)
           </p>
         </div>
  
@@ -112,17 +55,17 @@
      
  
         <div class="large-4 small-6 columns">
-          <a href="/14"><img src="/img/occ14_preview.jpg"/></a>
-          <h6 class="panel">Das <a href="/14">OpenCityCamp 2014</a> brachte am 29. November 2014 Interessierte aus Süddeutschland und darüber hinaus im Literaturhaus Stuttgart zusammen. <a href="/14">Die Sessions sind hier dokumentiert.</a></h6>
+          <a href="{{ "/14" | prepend: site.baseurl }}"><img src="{{ "/img/occ14_preview.jpg" | prepend: site.baseurl }}"/></a>
+          <h6 class="panel">Das <a href="{{ "/14" | prepend: site.baseurl }}">OpenCityCamp 2014</a> brachte am 29. November 2014 Interessierte aus Süddeutschland und darüber hinaus im Literaturhaus Stuttgart zusammen. <a href="{{ "/14" | prepend: site.baseurl }}">Die Sessions sind hier dokumentiert.</a></h6>
         </div>
  
         <div class="large-4 small-6 columns">
-          <a href="/13"><img src="/img/occ13_preview.jpg"/></a>
+          <a href="{{ "/13" | prepend: site.baseurl }}"><img src="{{ "/img/occ13_preview.jpg" | prepend: site.baseurl }}"/></a>
           <h6 class="panel">Das OpenCityCamp 2013 fand am 8. und 9. Juni 2013 zum zweiten Mal an der Universität Ulm statt.</h6>
         </div>
  
         <div class="large-4 small-6 columns">
-          <a href="/12"><img src="/img/occ12_preview.jpg"/></a>
+          <a href="{{ "/12" | prepend: site.baseurl }}"><img src="{{ "/img/occ12_preview.jpg" | prepend: site.baseurl }}"/></a>
           <h6 class="panel">Am 12. und 13. Mai 2012 lud die datalove-Hochschulgruppe zum ersten OpenCityCamp an die Universität Ulm ein.</h6>
         </div>
   
@@ -132,44 +75,3 @@
     </div>
   </div>
 
-
-    </div>
-  </div>
-
-      <footer class="row">
-    <div class="large-12 columns">
-      <hr>
-      <div class="row">
-        <div class="large-6 columns">
-         <h6>Unsere Partner</h6>
-      <p><a href="http://innovation.mfg.de"><img src="/img/MFG-Innovationsagentur-4c.jpg"></a>
-      </p>
-      <p><a href="http://www.okfn.de"><img src="/img/okfn-logo-landscape.png"></a></p>
-      <p><a href="http://www.alda-europe.eu"><img src="/img/ALDA_eadl_LOGO_RGB_EN&FR.png"></a></p> 
-      <p><a href="https://eacea.ec.europa.eu/europe-for-citizens_en"><img src="/img/europeforcitizens.png"></a></p>
-        </div>
-        <div class="large-6 columns">         
-         <p>Die OpenCityCamps sind ein Projekt der <a href="http://www.ulmapi.de">datalove-Hochschulgruppe an der Universität Ulm</a>.</p>
-         <p><strong>Impressum</strong><br/>
-         datalove-Hochschulgruppe<br />
-         ℅ Verfasste Studierendenschaft KdöR<br />
-         Universität Ulm<br />
-         Albert-Einstein-Allee 11<br />
-         89081 Ulm</p>
-         <p>datalove bei uni-ulm.de</p>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-
-    <script src="/js/vendor/jquery.js"></script>
-    <script src="/js/foundation.min.js"></script>
-    <script>
-      $(document).foundation();
-    </script>
-
-
-  </body>
-
-</html>

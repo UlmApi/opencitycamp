@@ -1,0 +1,13 @@
+# Site settings
+title: OpenCityCamp
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Dies sind die Dokumentationsseiten für die OpenCityCamps
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.opencitycamp.de" # the base hostname & protocol for your site
+twitter_username: ulmAPI
+github_username:  ulmAPI
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:title
